@@ -1,16 +1,17 @@
 # Romanian Wordlists
 
 This is a compilation of wordlists in the romanian language.
-The 50k list represents the top 50,000 most popular words in Romanian.[1]
-The big list is a list with all frequently used words.
 
 Some of the words are not in Romanian, but are frequently used in the "slang" so they are included here as well.
+
+The `metadata` directory will have all the information needed about any of the `wordlists` from this collection.
 
 ## Contributing
 
 Feel free to contribute with new wordlists if you have any.
-Fork the project, and open a new pull request consisting only of the `.txt` files you want to submit.
+Fork the project, and open a new pull request consisting only of the `.txt` files you want to submit and the metadata for them.
+The wordlists go in the `wordlists` directory, and the metadata goes in the `metadata` directory.
+The metadata file should include the author of the PR, any reference to the original author of the wordlist, and details about the words. (i.e: they are academic words, popular romanian password, etc.)
 
 Please use `Issues` for any request/complaint.
 
-[1] https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2016/ro/ro\_50k.txt
